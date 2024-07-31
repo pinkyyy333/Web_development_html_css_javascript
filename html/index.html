@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--下面那行表達的是網頁的編碼-->
+        <meta charset="UTF-8"/>
+        <!--讓搜尋引擎更了解我們的網頁-->
+        <meta name="description" content="Pinky很可愛"/>
+        <!--網頁作者-->
+        <meta name="author" content="Pinky"/>
+        <!--關鍵字-->
+        <meta name="keywords" content="Pinky,  html,teach" />
+        <!--視口，根據裝置大小做等比例調整內容顯示的樣子，初始縮放比1.0->100%-->
+        <meta neam="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Pinky的網頁</title>
+    </head>
+    <body>
+        <!--基本標籤-->
+        <!--h1到h6文字由大到小-->
+        <!--p是內文-->
+        <!--br是空行-->
+        <!--hr是水平線-->
+        <h2>第一篇文章</h2>
+        <p>今天天氣真好<i><b>好爽</b></i>哈哈</p>
+        <br/>
+        <hr/>
+        <h2>第二篇文章</h2>
+        <p>今天天氣不好<b>不爽</b>哭哭</p>
+
+        <!--連結 & 圖片-->
+        <!--a標牽連到外部網站，他需要一個屬性，叫herf網址的屬性，中間是顯示的文字-->
+        <a href="http://google.com">google網站</a>
+        <a href="page2.html">第二頁</a>
+        <a href="dir/page3.html">第三頁</a>
+        <a href="HBD.jpeg">生日快樂</a>
+        <a href="小畢典行前通知.pdf">測試PDF</a>
+        <br/>
+        <!--width跟height可以調整高跟寬，如果要等比例寫一個就可以了-->
+        <img src="https://today-obs.line-scdn.net/0haSOFaRALPnxyPy5qHj1BKyBpPRNBUy1_FglvSAw-YzApVjtBJzo2SFR6IB9dezFRESV5SghPYzcAb3FBPDJxezJIOh4qVjp4FT5xSBxAPicUfyV6K1g3/w644"width="300" >
+        <img src="HBD.jpeg" width="300" height="200">
+        <br/>
+        <!--影片&嵌入youtube影片-->
+        <video src="HA.mp4" controls width="300">瀏覽器無法載入影片</video>
+        <iframe width="280" height="170" src="https://www.youtube.com/embed/VKCN0kK-JhM?si=53yBRLTcsA9YwzoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br/>
+        <!--列表 & 表格-->
+        <!--ul代表列表，列表裡的內容用li表示，ol是用數字排序的-->
+        <!--ol type="A"裡面的type可以用A、a、I...-->
+        <ul>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ul>
+        <ol>
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+        <ol type="A" style="color:red;">
+            <li>google</li>
+            <li>facebook</li>
+            <li>ig</li>
+            <li>ptt</li>
+        </ol>
+        <table width="200" style="color:red;">
+            <tr>
+                <td>日期</td>
+                <td>數學</td>
+                <td>英文</td>
+            </tr>
+            <tr>
+                <td>2/8</td>
+                <td>80</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2/9</td>
+                <td>90</td>
+                <td>70</td>
+            </tr>
+        </table>
+
+        <!--html的容器 div & span-->
+        <!--有容器時，在用css會方便很多-->
+        <div style="color:blue;">
+            <ol type="I">
+                <li>google</li>
+                <li>facebook</li>
+                <li>ig</li>
+                <li>ptt</li>
+            </ol>
+            <table width="200">
+                <tr>
+                    <td>日期</td>
+                    <td>數學</td>
+                    <td>英文</td>
+                </tr>
+                <tr>
+                    <td>2/8</td>
+                    <td>80</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>2/9</td>
+                    <td>90</td>
+                    <td>70</td>
+                </tr>
+            </table>
+        </div>
+
+        <hr/>
+        <!--標籤分成兩種，像下面的a標籤是寬度多少占多少，p標籤則是直接占一整行的空間S-->
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <hr/>
+        <p>你好</p>
+        <p>哈哈</p>
+
+        <span>span1</span>
+        <span>span2</span>
+        <hr/>
+        <div>div1</div>
+        <div>div2</div>
+        <br/>
+        <br/>
+        <!--html輸入標籤-->
+        <input type="text" placeholder="請輸入帳號"/>
+        <br/>
+        <br/>
+        <input type="password" placeholder="請輸入密碼"/>
+        <br/>
+        <br/>
+        <input type="date"/>
+        <br/>
+        <br/>
+        <input type="range"/>
+        <br/>
+        <br/>
+        <input type="file"/>
+        <br/>
+        <br/>
+        <input type="checkbox"/>
+        <br/>
+        <br/>
+        <textarea>請輸入文字</textarea>
+    </body>
+</html>
