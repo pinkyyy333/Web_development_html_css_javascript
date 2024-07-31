@@ -9,10 +9,13 @@
         <div style="color: rgb(154, 106, 199); font-size: 20px;">
             <!--內標籤會覆蓋掉外面的、可以從w3c css找顏色，有直接輸入顏色、rgb、hsl、顏色代碼四種方式-->
             <h1 style="color: hsl(210, 100%, 56%);">css learn</h1>
+            <hr/>
+            <h1 style="color: black;">color</h1>
             <p style="background-color: pink; border: 1px solid black; width: 200px; height:50px">This is a paragraph.</p>
             <p style="border: 3px dashed #ffd700; max-width: 800px;">This is a paragraph.</p>
         </div>
-        <!--padding & margin-->
+        <hr/>
+        <!--padding & margin 框線內的空間-->
         <!--padding 在文字框線內部外圍多一圈，margin 在文字框線外部外圍多一圈-->
         <h1>padding & margin</h1>
         <div style="padding : 20px; margin: 20px; background-color: lightblue;border: 1px solid black;">
@@ -26,5 +29,33 @@
         <div style="padding : 20px 30px 40px 50px; margin: -5px; background-color: lightblue;border: 1px solid black;">
             This part is going to introduce about padding and margin.
         </div>
+        <hr/>
+        <!--float & display 排版-->
+        <h1>float & display</h1>
+        <div>
+            <img src="newyear.png" width="200px" style="float:right;"/>
+            <p>This picture is my painting works. I sent this picture to many people. Chatgpt said"This picture is a cute, colorful illustration wishing a happy new year for 2024. It features a child dressed in a dragon costume standing next to a small dragon character. The child has a big smile, and the dragon costume is detailed with horns, wings, and a tail. The small dragon is holding a red apple and has tiny wings and antlers. The text "2024 HAPPY NEW YEAR" is written in playful, multicolored letters at the top left of the image."</p>
+            <br/>
+            <ul style="float:left; background-color: lightblue; margin:0px;padding:15px ;">
+                <li>主頁</li>
+                <li>部落格</li>
+                <li>關於</li>
+                <li>聯絡我們</li>
+            </ul>
+            <p>This picture is my painting works. I sent this picture to many people. Chatgpt said"This picture is a cute, colorful illustration wishing a happy new year for 2024. It features a child dressed in a dragon costume standing next to a small dragon character. The child has a big smile, and the dragon costume is detailed with horns, wings, and a tail. The small dragon is holding a red apple and has tiny wings and antlers. The text "2024 HAPPY NEW YEAR" is written in playful, multicolored letters at the top left of the image."</p>
+            <!--p:block、span:inline-->
+            <br/>
+            <p>你好</p>
+            <p>哈哈</p>
+            <span>span1</span>
+            <span>span2</span>
+            <br/>
+            <p style="display: inline;">你好</p>
+            <p style="display: inline;">哈哈</p>
+            <span style="display:block;">span1</span>
+            <span style="display:block;">span2</span>
+        </div>
+        <hr/>
+        
     </body>
 </html>
