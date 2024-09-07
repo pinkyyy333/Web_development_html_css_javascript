@@ -1,0 +1,1 @@
+document.write("<h1>pinky+++</h1>");s
